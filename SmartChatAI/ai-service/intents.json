@@ -1,0 +1,183 @@
+[
+  {
+    "intent": "greeting",
+    "patterns": [
+      "Hi",
+      "Hello",
+      "Hey",
+      "Good morning",
+      "Good afternoon",
+      "Good evening",
+      "What's up",
+      "Howdy"
+    ],
+    "responses": [
+      "Hello! How can I assist you today?",
+      "Hi there! What can I help you with?",
+      "Hey! Nice to meet you. How can I help?",
+      "Greetings! What brings you here?"
+    ]
+  },
+  {
+    "intent": "goodbye",
+    "patterns": [
+      "Bye",
+      "Goodbye",
+      "See you later",
+      "Farewell",
+      "Take care",
+      "See you soon",
+      "Have a good day",
+      "Catch you later"
+    ],
+    "responses": [
+      "Goodbye! Have a great day!",
+      "Take care! Come back anytime.",
+      "Bye! Thanks for chatting with me.",
+      "See you later! Have a wonderful day!"
+    ]
+  },
+  {
+    "intent": "how_are_you",
+    "patterns": [
+      "How are you",
+      "How are you doing",
+      "How's it going",
+      "How do you feel",
+      "What's your status",
+      "Are you okay"
+    ],
+    "responses": [
+      "I'm doing great, thanks for asking! How about you?",
+      "I'm functioning well! How can I help you?",
+      "All systems operational! What can I assist with?",
+      "I'm excellent! Ready to help. What do you need?"
+    ]
+  },
+  {
+    "intent": "what_is_your_name",
+    "patterns": [
+      "What is your name",
+      "Who are you",
+      "What should I call you",
+      "Who am I talking to",
+      "What's your name"
+    ],
+    "responses": [
+      "I'm SmartChat AI, your intelligent assistant!",
+      "You can call me SmartChat. I'm an AI chatbot here to help.",
+      "I'm SmartChat AI, powered by machine learning and NLP.",
+      "I'm SmartChat - your friendly AI assistant!"
+    ]
+  },
+  {
+    "intent": "help",
+    "patterns": [
+      "Help",
+      "Can you help me",
+      "I need help",
+      "Assist me",
+      "Can you assist",
+      "What can you do",
+      "Help me out"
+    ],
+    "responses": [
+      "Of course! I'm here to help. What do you need?",
+      "I'd be happy to assist! Tell me what's on your mind.",
+      "Sure thing! What can I help you with?",
+      "Absolutely! How can I be of service?"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "patterns": [
+      "Thanks",
+      "Thank you",
+      "Thank you so much",
+      "I appreciate it",
+      "Much appreciated",
+      "Thanks a lot",
+      "Thanks for the help"
+    ],
+    "responses": [
+      "You're welcome! Happy to help!",
+      "No problem! Glad I could assist.",
+      "Always happy to help! Anything else?",
+      "Thank you! Feel free to ask if you need anything else."
+    ]
+  },
+  {
+    "intent": "education",
+    "patterns": [
+      "Tell me about Python",
+      "What is programming",
+      "Explain JavaScript",
+      "How do I learn coding",
+      "What is machine learning",
+      "Tell me about AI",
+      "What is data science",
+      "How to become a developer"
+    ],
+    "responses": [
+      "Python is a popular programming language known for its simplicity and versatility. It's widely used in web development, data science, and AI.",
+      "Programming is the process of writing instructions for computers to perform tasks. It's a fundamental skill in tech.",
+      "JavaScript is a programming language primarily used for web development. It runs in browsers and powers interactive websites.",
+      "Machine Learning is a subset of AI that enables systems to learn from data and improve performance without explicit programming.",
+      "There are many resources online like Coursera, Udemy, and freeCodeCamp to learn coding. Start with the basics and practice regularly!",
+      "AI (Artificial Intelligence) is the simulation of human intelligence processes by machines, especially computer systems."
+    ]
+  },
+  {
+    "intent": "technical_support",
+    "patterns": [
+      "Something is not working",
+      "I have a bug",
+      "Error occurred",
+      "System is down",
+      "Application crashed",
+      "Not working properly",
+      "Can you fix this"
+    ],
+    "responses": [
+      "I'm sorry to hear you're experiencing issues. Can you describe the problem in more detail?",
+      "Let me help you troubleshoot. What error message are you seeing?",
+      "I understand your frustration. Could you tell me more about what's happening?",
+      "Don't worry, we'll figure this out. What seems to be the issue?"
+    ]
+  },
+  {
+    "intent": "general_knowledge",
+    "patterns": [
+      "What is the capital of France",
+      "Tell me a fact",
+      "What's the weather like",
+      "Who invented the internet",
+      "What year was it founded",
+      "Tell me something interesting"
+    ],
+    "responses": [
+      "I have limited access to real-time information, but I can help with general questions!",
+      "That's an interesting question! While I can't browse the internet in real-time, I have knowledge on various topics.",
+      "I'd be happy to help, but some questions might require current information. Ask away!",
+      "Feel free to ask me anything you'd like to know!"
+    ]
+  },
+  {
+    "intent": "feedback",
+    "patterns": [
+      "You're great",
+      "Great job",
+      "Good response",
+      "I like you",
+      "You're helpful",
+      "Keep it up",
+      "Excellent work"
+    ],
+    "responses": [
+      "Thank you! I appreciate the feedback. I'm here to help!",
+      "Thanks so much! Your kind words motivate me to do better.",
+      "I'm glad I could help! Feel free to reach out anytime.",
+      "That's wonderful to hear! I'll continue improving for you."
+    ]
+  }
+]
